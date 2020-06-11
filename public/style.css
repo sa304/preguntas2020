@@ -1,0 +1,25 @@
+.box-suggestions{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;   
+}
+
+ul{
+display: flex;
+width: 80%;
+margin: 0;
+padding: 0;
+flex-flow: column;
+
+}
+
+ul li{
+    list-style: none;
+    line-height: 2;
+    border: 1px solid red;
+    background-color: aqua;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
