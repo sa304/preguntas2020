@@ -12,7 +12,7 @@
         v-show="quiz"
       >
         <div class="box-question">
-          <h2>Question {{ b }}/{{ questions.length }}</h2>
+          <h2>PREGUNTAS {{ b }}/{{ questions.length }}</h2>
           <p>{{ element.question }}</p>
         </div>
         <div class="box-suggestions">
